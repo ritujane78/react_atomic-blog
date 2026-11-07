@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import PostContext from "./PostContext";
+import {PostContext} from "./PostContext";
 
 function SearchPosts() {
   const {searchQuery, setSearchQuery} = useContext(PostContext); 

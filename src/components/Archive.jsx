@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { createRandomPost } from "./Util";
-import PostContext from "./PostContext";
+import {PostContext} from "./PostContext";
 
 function Archive( ) {
   const {onAddPost} = useContext(PostContext);
